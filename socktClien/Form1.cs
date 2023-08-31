@@ -41,6 +41,7 @@ namespace socktClien
             IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Parse(serverIP), serverPort);
             try
             {
+                // 链接
                 m_clientSocket.Connect(remoteEndPoint);
                 if (m_clientSocket.Connected)
                 {
