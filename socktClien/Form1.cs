@@ -22,6 +22,7 @@ namespace socktClien
 
         public Form1()
         {
+            // 注释
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
         }
