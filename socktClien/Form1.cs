@@ -28,6 +28,7 @@ namespace socktClien
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // 注释2
             //txtIP.Text = "172.18.20.234";
             txtIP.Text = "192.168.100.25";
             txtPort.Text = "8899";
