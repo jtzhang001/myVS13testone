@@ -36,6 +36,7 @@ namespace socktClien
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            // V1
             string serverIP = txtIP.Text;
             int serverPort = Int32.Parse(txtPort.Text);
             m_clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
