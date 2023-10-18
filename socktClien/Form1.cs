@@ -65,6 +65,7 @@ namespace socktClien
         {
             // T1
             // T2
+            // S1
             if (m_clientSocket != null)
             {
                 m_clientSocket.Close();
