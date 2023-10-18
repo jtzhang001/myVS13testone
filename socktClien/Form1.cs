@@ -64,6 +64,7 @@ namespace socktClien
         private void btnStop_Click(object sender, EventArgs e)
         {
             // T1
+            // T2
             if (m_clientSocket != null)
             {
                 m_clientSocket.Close();
