@@ -75,6 +75,7 @@ namespace socktClien
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // S2
             string strSendData = txtSend.Text;
             byte[] sendBuffer = new byte[1024];
             sendBuffer = Encoding.Unicode.GetBytes(strSendData);
